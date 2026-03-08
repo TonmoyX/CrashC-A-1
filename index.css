@@ -1,0 +1,371 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+body{
+  max-width: 1440px;
+  margin : 0 auto;
+  font-family: inter; 
+}
+header{
+    margin-top: 31px;
+    padding-left: 156px;
+    padding-right: 156px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    max-width: 1128px;
+    margin:0 auto;
+}
+.tv{
+    display: flex;
+    align-items: center;
+    background-color: #FEEAE9;
+    margin-top: 49px;
+    padding-left: 53px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    border-radius: 8px;
+}
+
+.head-content h1{
+   font-size: 56px;
+   font-weight: bold;
+   margin-bottom: 8px;
+}
+.head-content h3{
+   font-size: 1rem;
+   color: #4E4E4E;
+   line-height: 26px;
+   font-weight: 400;
+   margin-bottom: 8px;
+}
+.head-content p{
+    margin-bottom: 8px;
+    font-size: 41px;
+    color:#FF136F;
+    font-weight: medium;
+}
+.head-content button{
+    background:linear-gradient(to top, #FF136F, #FF589B);
+    width: 168px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 8px;
+    border-style: none;
+    border-color: none;
+    color:white;
+}
+
+.watch{
+    display: flex;
+    align-items: center;
+    width: 359px;
+    justify-content: space-around;
+    background-color: #FF9C35;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+}
+.cate img{
+    width: 65px;
+}
+.watch p{
+    font-size: 2.1rem;
+    color:white;
+    font-weight: medium;
+}
+.catDiv{
+    margin-top:57px;
+}
+.cate{
+    margin-top: 60px;
+}
+.allCate{
+    display: flex;
+    column-gap: 10px;
+}
+.shoeCard{
+    margin-top: 98px;
+}
+.shoeFlex{
+    display: flex;
+    gap:10px;
+}
+.card{
+    margin-top: 24px;
+    border: solid gray;
+    width: 360px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 24px;
+    padding-bottom: 24px;
+}
+.card h1{
+    margin-top: 22px;
+    font-size: 2rem;
+    font-weight: 600px;
+    margin-bottom: 16px;
+}
+.card p{
+    text-align: center;
+    font-size: 1rem;
+    color:#4E4E4E;
+    margin-bottom: 16px;
+}
+.card h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: medium;
+    margin-bottom: 16px;
+}
+.card button{
+    background-color: black;
+    color:white;
+    font-size: 1rem;
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 14px;
+    justify-content: center;
+    margin-left: 27%;
+
+}
+
+.last{
+    margin-top: 141px;
+    background-color: #FFF2F1;
+    padding-top: 146px;
+}
+.lastDiv h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600px;
+    margin-bottom: 4px;
+}
+.lastDiv p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: medium;
+    margin-bottom: 18px;
+    color:#707070;
+}
+
+.emailInput{
+    margin-left: 25%;
+    padding-bottom: 146px;
+}
+.emailInput input{
+    border-color: none;
+    border-style: none;
+    width: 450px;
+    padding-left: 35px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    position: relative;
+}
+
+.emailInput button{
+    background: linear-gradient(to top, #FF136F, #FF589B);
+    width: 157px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: absolute;
+    border-color: none;
+    border-style: none;
+    color:white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+main{
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width:700px){
+body{
+  font-family: inter; 
+  margin-right: 0;
+  padding: 0;
+}
+header{
+   
+    padding:0;
+   
+}
+main{
+    margin:0 auto;
+}
+.tv{
+    display: flex;
+    flex-direction: column-reverse;
+    
+    align-items: center;
+    background-color: #FEEAE9;
+    margin-top: 49px;
+    padding-left: 53px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    border-radius: 8px;
+}
+
+.head-content h1{
+   font-size: 56px;
+   font-weight: bold;
+   margin-bottom: 8px;
+}
+.head-content h3{
+   font-size: 1rem;
+   color: #4E4E4E;
+   line-height: 26px;
+   font-weight: 400;
+   margin-bottom: 8px;
+}
+.head-content p{
+    margin-bottom: 8px;
+    font-size: 41px;
+    color:#FF136F;
+    font-weight: medium;
+}
+.head-content button{
+    background:linear-gradient(to top, #FF136F, #FF589B);
+    width: 168px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 8px;
+    border-style: none;
+    border-color: none;
+    color:white;
+}
+
+.watch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 359px;
+    justify-content: space-around;
+    background-color: #FF9C35;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+}
+.cate img{
+    width: 65px;
+}
+.watch p{
+    font-size: 2.1rem;
+    color:white;
+    font-weight: medium;
+}
+.catDiv{
+    margin-top:57px;
+}
+.cate{
+    margin-top: 60px;
+}
+.allCate{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+.shoeCard{
+    margin-top: 98px;
+}
+.shoeFlex{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.card{
+    margin-top: 24px;
+    border: solid gray;
+    width: 360px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 24px;
+    padding-bottom: 24px;
+}
+.card h1{
+    margin-top: 22px;
+    font-size: 2rem;
+    font-weight: 600px;
+    margin-bottom: 16px;
+}
+.card p{
+    text-align: center;
+    font-size: 1rem;
+    color:#4E4E4E;
+    margin-bottom: 16px;
+}
+.card h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: medium;
+    margin-bottom: 16px;
+}
+.card button{
+    background-color: black;
+    color:white;
+    font-size: 1rem;
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 14px;
+    justify-content: center;
+    margin-left: 27%;
+
+}
+
+.last{
+    margin-top: 141px;
+    background-color: #FFF2F1;
+    padding-top: 146px;
+}
+.lastDiv h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600px;
+    margin-bottom: 4px;
+}
+.lastDiv p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: medium;
+    margin-bottom: 18px;
+    color:#707070;
+}
+
+.emailInput{
+    margin-left:0px;
+    padding-bottom: 146px;
+}
+.emailInput input{
+    border-color: none;
+    border-style: none;
+    width: 200px;
+    padding-left: 35px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    position: relative;
+}
+
+.emailInput button{
+    background: linear-gradient(to top, #FF136F, #FF589B);
+    width: 90px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: absolute;
+    border-color: none;
+    border-style: none;
+    color:white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+}
